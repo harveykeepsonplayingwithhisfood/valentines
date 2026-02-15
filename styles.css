@@ -103,7 +103,7 @@ body::before{
 .flower{
   position:absolute;
   inset:8%;
-  background:url("valentines-flower.jpg") center/contain no-repeat;
+  background:url("valentines.flower.jpg") center/contain no-repeat;
   filter:drop-shadow(0 25px 30px rgba(0,0,0,.15));
   pointer-events:none;
 }
@@ -191,4 +191,5 @@ body::before{
   background:white;
   cursor:pointer;
 }
+
 
