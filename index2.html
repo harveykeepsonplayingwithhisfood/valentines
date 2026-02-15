@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>for my baby ♡</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <section class="intro" id="intro">
+    <h1>Happy Valentine’s Day baby ♡</h1>
+    <button class="btn" id="startBtn">Open your flower </button>
+  </section>
+
+  <section class="main" id="main">
+    <div class="note">click the petals baby :3</div>
+
+    <div class="stage">
+      <div class="flower" aria-hidden="true"></div>
+
+      <button class="zone p1" data-id="1" aria-label="Petal 1"></button>
+      <button class="zone p2" data-id="2" aria-label="Petal 2"></button>
+      <button class="zone p3" data-id="3" aria-label="Petal 3"></button>
+      <button class="zone p4" data-id="4" aria-label="Petal 4"></button>
+      <button class="zone p5" data-id="5" aria-label="Petal 5"></button>
+      <button class="zone p6" data-id="6" aria-label="Petal 6"></button>
+    </div>
+
+    <div class="finalCard" id="finalCard"></div>
+    <div class="tiny" id="progress">0/6 petals opened</div>
+  </section>
+
+  <div class="backdrop" id="backdrop" role="dialog" aria-modal="true">
+    <div class="modal">
+      <div id="modalText"></div>
+      <button class="closeBtn" id="closeBtn">Close</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
